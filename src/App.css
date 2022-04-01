@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 1rem;
+    width: 38rem;
+}
+.cardContainer {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #0E86D4;
+}
+.test{
+    margin-left: 4rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 26rem;
+    height: 22rem;
+    background-color: #f6f6f6;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.productsTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 26rem;
+    height: 22rem;
+    background-color: #f6f6f6;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
-.App-link {
-  color: #61dafb;
+.position{
+    margin: 2rem;
 }
+.displayProduct{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.displayProductTag{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.displayProductRight{
+    display: flex;
+    width: 20rem;
+    justify-content: flex-end;
+}
+input{
+    width: 1.8rem;
+}
+.prodoctName{
+    width: 10rem;
+}
+.cartTitle{
+    width: 80%;
+    justify-content: flex-start;
+}
+.button{
+    width: 80%;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
 }
